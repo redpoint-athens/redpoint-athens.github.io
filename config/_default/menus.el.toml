@@ -29,7 +29,7 @@
   weight = 60
 
  [[main_right]]
-name = "<i class=\"fab fa-facebook\" style=\"font-size: 0.90rem;\"></i>"
+name = "<i class=\"fab fa-facebook\"></i>"
   post = ""
   url = "https://el-gr.facebook.com/redpointathensclimbingcenter/"
   weight = 1 
