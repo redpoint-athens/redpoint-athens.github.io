@@ -15,7 +15,7 @@ subtitle = "Just 2 minutes away from the Kato Patisia metro station"
   # Background image.
   image = "climber_background.jpg"  # Name of image in `static/img/`.
   image_darken = 0.5  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-  image_position = "0 30%"  # Options include `left`, `center` (default), or `right`.
+  image_position = "center 30%"  # Options include `left`, `center` (default), or `right`.
   image_parallax = false  # Use a fun parallax-like fixed background effect? true/false
   
   # Text color (true=light or false=dark).
