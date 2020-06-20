@@ -22,3 +22,9 @@
   name = "Contact"
   url = "#contact"
   weight = 60
+
+[[main_right]]
+  name = "<i class=\"fab fa-facebook\"></i>"
+  post = ""
+  url = "https://en-us.facebook.com/redpointathensclimbingcenter/"
+  weight = 1 
