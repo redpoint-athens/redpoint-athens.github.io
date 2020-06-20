@@ -37,13 +37,19 @@
 	width: 75%;
 }
 
-.about .container {
+.about .video-container {
+    overflow: hidden;
     position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 50%;
+    width:100%;
 }
-.about iframe {
+
+.about .video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.about .video-container iframe {
     position: absolute;
     top: 0;
     left: 0;
