@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Εγκανιάσαμε τη στέγη"
+title: "Εγκαινιάσαμε τη στέγη"
 subtitle: ""
 summary: ""
 tags: []
