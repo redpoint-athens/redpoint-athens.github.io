@@ -13,6 +13,7 @@ title = "Γιατί να κάνετε αναρρίχηση"
   image = "woman-indoor-climbing.jpg"  # Name of image in `static/img/`.
   image_darken = 0.9  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
   text_color_light = true
+  image_parallax = false
 
 [design.spacing]
   padding = ["40px", "0", "40px", "0"]
