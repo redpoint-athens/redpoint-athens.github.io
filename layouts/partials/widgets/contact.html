@@ -1,4 +1,9 @@
-<!-- Kostas: modified to show content after info -->
+<!--
+Kostas modifications:
+- show content after info
+- 2 emails / phones
+- subtitle in right column
+-->
 
 {{ $ := .root }}
 {{ $page := .page }}
@@ -9,9 +14,10 @@
 <div class="row contact-widget">
   <div class="col-12 col-lg-4 section-heading">
     <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
-    {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
   </div>
   <div class="col-12 col-lg-8">
+    <h2>{{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}</h2>
+
     {{ if $page.Params.email_form }}
 
     {{ $post_action := "" }}
@@ -53,8 +59,24 @@
         </span>
       </li>
       {{ end }}
+      {{ if and $data.email2 (not $page.Params.email_form) }}
+      <li>
+        <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+        <span id="person-email">
+        {{- if $autolink }}<a href="mailto:{{ $data.email2 }}">{{ $data.email2 }}</a>{{ else }}{{ $data.email2 }}{{ end -}}
+        </span>
+      </li>
+      {{ end }}
 
       {{ with $data.phone }}
+      <li>
+        <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
+        <span id="person-telephone">
+        {{- if $autolink }}<a href="tel:{{ . }}">{{ . }}</a>{{ else }}{{ . }}{{ end -}}
+        </span>
+      </li>
+      {{ end }}
+      {{ with $data.phone2 }}
       <li>
         <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
         <span id="person-telephone">

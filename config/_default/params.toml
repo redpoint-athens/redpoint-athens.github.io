@@ -88,8 +88,10 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "redpoint.athens@gmail.com, info@redpoint.com.gr"
-phone = "697 6883880, 210 2011344"
+email = "redpoint.athens@gmail.com"
+email2 = "info@redpoint.com.gr"
+phone = "697 688 3880"
+phone2 = "210 201 1344"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
