@@ -6,14 +6,10 @@ weight = 30
 
 title = "Συνδρομές"
 
-[design]
-  columns = "2"
-
 [design.spacing]
   padding = ["80px", "0", "40px", "0"]
 
 [advanced]
- # CSS class.
  css_class = "pricelist"
 +++
 

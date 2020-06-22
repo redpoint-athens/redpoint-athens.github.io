@@ -8,7 +8,6 @@ active = true
 weight = 20
 
 title = "Νέα"
-subtitle = ""
 
 [content]
   # Page type to display. E.g. post, talk, or publication.

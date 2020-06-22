@@ -1,8 +1,8 @@
 +++
-widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 16  # Order that this section will appear.
+widget = "blank"
+headless = true
+active = true
+weight = 16
 
 title = "Ποιοι είμαστε"
 
@@ -13,7 +13,6 @@ title = "Ποιοι είμαστε"
   padding = ["40px", "0", "80px", "0"]
 
 [advanced]
- # CSS class.
  css_class = "about"
 +++
 
