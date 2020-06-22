@@ -1,3 +1,7 @@
 office_hours = ["Mon to Fri: 17:30 - 22:00μμ", "Sat-Sun: contact us for opening hours"]
 
 address = {street = "Sofianopoulou 3", city = "Kato Patisia", region = "Athens"}
+
+contact_links = [
+  {icon = "facebook", icon_pack = "fab", name = "Find us on Facebook", link = "https://en-us.facebook.com/redpointathensclimbingcenter/"},
+]
