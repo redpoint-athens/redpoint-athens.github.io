@@ -13,18 +13,25 @@ title = "Pricelist"
  css_class = "pricelist"
 +++
 
+### Adults
 
 - Daily: 5€
 - Monthly: 30€                                                                                                                              
 - Trimester: 80€
 - Semester: 150€
 - Year: 260€
-- Monthly subscription for kids: 40€
-  - 4 year old and above
-- Rent climbing shoes 2€
-  - Free for courses
-- Courses:
-  - Personal course: 10€/hour
-  - Team course: 9€/hour per person (2 people), 8€/hour per persom (3 people and above)
-  - We organize climbing courses in Athens crags with our equipment. Contact us for details.
-- We orgainize children parties and events.
+- Rent climbing shoes: 2€
+
+### Kids
+- Month: 40€
+- 4 year old and above
+
+### Courses
+- Personal: 10€/hour
+- Team (2 people): 30€
+- Team (3 people and above): 80€
+- Climbing shoes are free
+
+We organize climbing courses in Athens crags with our equipment. [Contact](#contact) us for details.
+
+We orgainize children parties and events.
