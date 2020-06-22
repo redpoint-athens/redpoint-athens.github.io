@@ -8,7 +8,7 @@ How to use this repository:
    choco install hugo-extended
    ```
 
-2. Clone the repository
+2. Install [git](https://git-scm.com/) and clone the repository
    ```
    git clone --recursive https://github.com/redpoint-athens/redpoint-athens.github.io.git
    ```
